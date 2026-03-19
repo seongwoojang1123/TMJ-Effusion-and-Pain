@@ -85,7 +85,7 @@ This repository primarily uses discrimination-based evaluation metrics:
 
 ---
 
-- ## Authors
+## Authors
 
 - Yeon-Hee Lee : omod0209@gmail.com
 - Seongwoo Jang : mook8105@koreacu.ac.kr
