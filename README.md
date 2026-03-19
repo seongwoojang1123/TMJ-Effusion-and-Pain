@@ -47,4 +47,57 @@ The repository includes:
 - `README.md`  
   Project overview, workflow summary, and usage guidance.
 
+---
 
+## Evaluation Metrics
+
+This repository primarily uses discrimination-based evaluation metrics:
+
+- AUROC
+- bootstrap-based 95% confidence interval for AUROC
+- ROC curves with confidence bands
+- class-specific ROC/AUROC for multiclass tasks
+- macro-average and micro-average AUROC
+- comparative ROC analysis in exploratory SMOTE experiments
+
+---
+
+## Models Used
+
+### Logistic Regression (Primary Model)
+
+- Used for **Effusion (0 vs 1)** classification  
+- Provides interpretable probability outputs  
+- Suitable for clinical variable-based prediction  
+
+### One-vs-Rest Logistic Regression
+
+- Used for **Effusion grade (0/1/2)** classification  
+- Each class is modeled against the others  
+- Enables class-specific and overall performance evaluation  
+
+### SMOTE (Sensitivity Analysis Only)
+
+- Applied only to the **training dataset**  
+- Used to address class imbalance in exploratory analyses  
+- Compared against baseline (non-SMOTE) models  
+- Not used as the primary analytical method  
+
+---
+
+- ## Authors
+
+- Yeon-Hee Lee : omod0209@gmail.com
+- Seongwoo Jang : mook8105@koreacu.ac.kr
+- Seonggwang Jeon : qq22512@hanyang.ac.kr
+- Q-Schick Auh, and Yung-Kyun Noh : nohyung@hanyang.ac.kr
+
+---
+
+## Affiliations
+
+- Department of Orofacial Pain and Oral Medicine, Kyung Hee University Dental Hospital, Kyung Hee University School of Dentistry
+- Center for Systems Biology, Massachusetts General Hospital, Harvard Medical School
+- Department of Convergence Information Studies, Korea Cyber University
+- Department of Computer Science, Hanyang University
+- Affiliate Professor, School of Computational Sciences
