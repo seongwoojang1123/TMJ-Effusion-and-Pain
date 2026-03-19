@@ -27,3 +27,24 @@ The repository includes:
 - ROC and AUROC-based evaluation with bootstrap confidence intervals
 - exploratory class imbalance handling using SMOTE
 - feature-level interpretation of clinically relevant predictors
+
+---
+
+## Repository Structure
+
+- `1_data_preprocessing_Effusion.ipynb`  
+  Data cleaning, variable selection, missing-value handling, and label preparation.
+
+- `2_data_initial_analyze_Effusion.ipynb`  
+  Descriptive statistics, baseline comparisons, and subgroup distribution analysis.
+
+- `3_Logistic_Regression_Training_Effusion.ipynb`  
+  Logistic regression modeling, ROC/AUROC evaluation, bootstrap confidence intervals, and SMOTE-based sensitivity analysis.
+
+- `4_feature_significance_analysis_Effusion.ipynb`  
+  Interpretation of clinically relevant predictors and feature significance.
+
+- `README.md`  
+  Project overview, workflow summary, and usage guidance.
+
+
